@@ -1,25 +1,19 @@
-# Data Visualization Foundations with Python
+# Data Visualization & Machine Learning Foundations with Python
 
-## Overview
+## Project Overview
 
-This project was completed as part of the Artificial Intelligence Internship Program at Sohail Smart Solutions.
+This repository documents my progress through the AI Foundation Internship Program at Sohail Smart Solutions.
 
-The objective of this assignment was to learn the fundamentals of data visualization using Python and matplotlib. Visualizations help transform raw data into meaningful insights that are easier to understand, analyze, and communicate.
+The project evolved across multiple stages:
 
-Using a cleaned student dataset, three different chart types were created to explore student performance and identify patterns within the data.
+* Python Programming Fundamentals
+* Student Management System Development
+* Data Analysis with pandas
+* Data Cleaning & Transformation
+* Data Visualization with matplotlib
+* Introduction to Machine Learning using scikit-learn
 
----
-
-## Learning Objectives
-
-This project focused on:
-
-* Understanding data visualization fundamentals
-* Learning matplotlib basics
-* Creating professional charts
-* Understanding chart selection
-* Communicating insights through visual analysis
-* Interpreting data effectively
+The objective was to understand the complete workflow of working with data, from collection and cleaning to visualization and prediction.
 
 ---
 
@@ -27,77 +21,79 @@ This project focused on:
 
 * Python 3
 * pandas
-* matplotlib
 * NumPy
+* matplotlib
+* scikit-learn
 * JSON
 
 ---
 
-## Dataset
+## Week 1 – Student Management System
 
-The dataset used in this project was the cleaned student dataset created during the previous data cleaning assignment.
+Features:
 
-The dataset contains:
+* Add Student
+* View Students
+* Search Student
+* Delete Student
+* Calculate Class Average
+* JSON Data Storage
 
-* Student names
-* Academic major
-* Subject scores
-* Average score
-* Grade category
+Skills Learned:
 
-An additional attendance column was created to support scatter plot analysis.
-
----
-
-## Visualizations Created
-
-### 1. Bar Chart
-
-**Title:** Average Grade by Major
-
-Purpose:
-
-* Compare average performance between academic majors
-* Identify the highest-performing group
-* Observe differences between categories
+* Functions
+* File Handling
+* JSON Processing
+* CRUD Operations
+* Program Structure
 
 ---
 
-### 2. Histogram
+## Week 2 – Data Analysis & Visualization
 
-**Title:** Distribution of Student Scores
+Topics Covered:
 
-Purpose:
+* DataFrames
+* Data Cleaning
+* Missing Value Handling
+* Data Transformation
+* Feature Engineering
+* Data Visualization
 
-* Understand how grades are distributed
-* Identify clusters of student performance
-* Detect potential outliers
+Visualizations Created:
+
+* Bar Chart
+* Histogram
+* Scatter Plot
+
+Libraries Used:
+
+* pandas
+* matplotlib
 
 ---
 
-### 3. Scatter Plot
+## Week 3 – Introduction to Machine Learning
 
-**Title:** Attendance vs Average Grade
+Topics Covered:
 
-Purpose:
+* Supervised Learning
+* Features vs Target Variables
+* Train/Test Split
+* Logistic Regression
+* Model Training
+* Predictions
+* Accuracy Evaluation
 
-* Explore the relationship between attendance and academic performance
-* Identify trends and correlations
-* Support future predictive analysis concepts
+Workflow:
 
----
-
-## Why Visualization Matters
-
-Data visualization helps analysts and AI engineers:
-
-* Understand data quickly
-* Discover patterns
-* Detect anomalies
-* Communicate findings effectively
-* Support data-driven decision making
-
-Charts often reveal relationships and trends that are difficult to identify from tables alone.
+1. Load cleaned student dataset
+2. Create pass/fail target variable
+3. Select feature columns
+4. Split data into training and testing sets
+5. Train Logistic Regression model
+6. Generate predictions
+7. Evaluate accuracy
 
 ---
 
@@ -106,8 +102,9 @@ Charts often reveal relationships and trends that are difficult to identify from
 ```text
 data-visualization-python/
 │
-├── data_visualization_analysis.py
 ├── cleaned_students.json
+├── data_visualization_analysis.py
+├── machine_learning_prediction.py
 ├── bar_chart.png
 ├── histogram.png
 ├── scatter_plot.png
@@ -120,17 +117,15 @@ data-visualization-python/
 
 Through this project, I learned how to:
 
-* Create charts using matplotlib
-* Choose appropriate chart types
-* Label visualizations professionally
-* Interpret visual patterns
-* Present findings clearly
-* Communicate insights through visual evidence
+* Build Python applications
+* Work with structured datasets
+* Clean and transform data
+* Create meaningful visualizations
+* Train and evaluate a Machine Learning model
+* Interpret predictive results
 
 ---
 
 ## Conclusion
 
-Data visualization is an essential skill in Data Science, Machine Learning, and Artificial Intelligence. By transforming numerical information into charts and graphs, analysts can better understand data and communicate findings to both technical and non-technical audiences.
-
-This project provided practical experience in creating and interpreting visualizations using Python and matplotlib, forming an important foundation for future AI and Machine Learning work.
+This repository represents my transition from programming fundamentals into Data Analysis and Machine Learning foundations. The skills developed throughout these assignments provide a strong foundation for future work in Artificial Intelligence, Data Science, and Machine Learning.
